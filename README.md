@@ -1,84 +1,84 @@
 ## Medical Insurance Cost Prediction
 
-Overview
+### Overview
 
 This project aims to develop a predictive model that estimates the medical insurance cost for individuals based on various factors such as age, BMI, smoking status, and region. By leveraging machine learning techniques, the model provides insights into how different factors influence insurance premiums.
 
-Features
+### Features
 
-Data preprocessing and cleaning
+- Data preprocessing and cleaning
 
-Exploratory Data Analysis (EDA) to identify key patterns
+- Exploratory Data Analysis (EDA) to identify key patterns
 
-Feature engineering to enhance predictive accuracy
+- Feature engineering to enhance predictive accuracy
 
-Model selection and training using regression techniques
+- Model selection and training using regression techniques
 
-Model evaluation using key performance metrics
+- Model evaluation using key performance metrics
 
-Deployment of the model via a web application (optional)
+- Deployment of the model via a web application (optional)
 
-Dataset
+### Dataset
 
 The dataset used for this project contains the following features:
 
-Age: Age of the insured individual
+- Age: Age of the insured individual
 
-Sex: Gender of the individual (male/female)
+- Sex: Gender of the individual (male/female)
 
-BMI: Body Mass Index
+- BMI: Body Mass Index
 
-Children: Number of dependent children
+- Children: Number of dependent children
 
-Smoker: Whether the individual is a smoker (yes/no)
+- Smoker: Whether the individual is a smoker (yes/no)
 
-Region: Residential region of the individual
+- Region: Residential region of the individual
 
-Charges: Medical insurance cost (target variable)
+- Charges: Medical insurance cost (target variable)
 
-Tools & Technologies
+### Tools & Technologies
 
-Programming Language: Python
+- Programming Language: Python
 
-Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
-Machine Learning Model: Linear Regression, Random Forest, or other regression models
+- Machine Learning Model: Linear Regression, Random Forest, or other regression models
 
-Deployment: Flask (optional for web application)
+- Deployment: Flask (optional for web application)
 
-Steps to Run the Project
+### Steps to Run the Project
 
-Clone the repository:
+1. Clone the repository:
 
 git clone https://github.com/your-repo/medical-insurance-cost-prediction.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
 cd medical-insurance-cost-prediction
 
-Install dependencies:
+3. Install dependencies:
 
 pip install -r requirements.txt
 
-Run the Jupyter Notebook to explore data and train the model:
+4. Run the Jupyter Notebook to explore data and train the model:
 
 jupyter notebook
 
-(Optional) Run the Flask application for deployment:
+5. (Optional) Run the Flask application for deployment:
 
 python app.py
 
-Model Evaluation
+### Model Evaluation
 
 The model is evaluated based on:
 
-Mean Absolute Error (MAE)
+- Mean Absolute Error (MAE)
 
-Mean Squared Error (MSE)
+- Mean Squared Error (MSE)
 
-R-squared Score
+- R-squared Score
 
-Future Improvements
+### Future Improvements
 
 Incorporating additional features for better predictions
 
