@@ -80,8 +80,8 @@ The model is evaluated based on:
 
 ### Future Improvements
 
-Incorporating additional features for better predictions
+- Incorporating additional features for better predictions
 
-Hyperparameter tuning to optimize model performance
+- Hyperparameter tuning to optimize model performance
 
-Deploying the model as an API or web application
+- Deploying the model as an API or web application
